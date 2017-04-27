@@ -6,4 +6,4 @@ python:
 #    - pip install kafka-python
 # command to run tests
 script:
-    python testFile.py
+    python testTravis.py
