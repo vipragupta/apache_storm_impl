@@ -1,7 +1,7 @@
 # apache_storm_impl
 
 # Best tutorials: 
-* http://storm.apache.org/releases/1.0.1/Tutorial.html
+* http://storm.apache.org/releases/current/Tutorial.html
 
 * http://www.haroldnguyen.com/blog/2015/01/setting-up-storm-and-running-your-first-topology/
 
