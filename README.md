@@ -1,15 +1,23 @@
 # apache_storm_impl
 
-Best tutorials: http://storm.apache.org/releases/1.0.1/Tutorial.html
-				http://www.haroldnguyen.com/blog/2015/01/setting-up-storm-and-running-your-first-topology/
-				https://github.com/apache/storm/tree/v1.0.1
+# Best tutorials: 
+* http://storm.apache.org/releases/1.0.1/Tutorial.html
 
-Imp Points: 
-	Requirements: Java 1.8  	on all nimbus and supervisor
-				  Python 2.7:    sudo apt-get install python
-				  Zookeeper : 	 sudo apt-get install zookeeperd
-				  Storm     :    download storm 1.1 release
-				  				 change its storm.yaml
+* http://www.haroldnguyen.com/blog/2015/01/setting-up-storm-and-running-your-first-topology/
+
+* https://github.com/apache/storm/tree/v1.0.1
+
+# Imp Points: 
+## Requirements: 
+Java 1.8  	on all nimbus and supervisor
+
+Python 2.7:    sudo apt-get install python
+
+Zookeeper : 	 sudo apt-get install zookeeperd
+
+Storm     :    download storm 1.1 release
+
+change its storm.yaml
 
 	How to start: 
 			Zookeeper: /etc/zookeeper/conf/
@@ -57,9 +65,10 @@ How to start:
 			bin/storm ui
 
 
-** currently using slave1, slave2, nimbus
-** nimbus and zookeeper on one node, and supervisor on other 2. Supervisors should point to zookeeper and nimbus.seed
-** code is in /home/ubuntu/Storm/storm/examples/storm-starter
+##### currently using slave1, slave2, nimbus
+##### nimbus and zookeeper on one node, and supervisor on other
+##### Supervisors should point to zookeeper and nimbus.seed
+##### code is in /home/ubuntu/Storm/storm/examples/storm-starter
 
 
 1. go to /Storm/storm/examples/storm-starter
